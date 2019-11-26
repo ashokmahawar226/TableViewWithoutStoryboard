@@ -29,6 +29,8 @@ class Dashboard: UIViewController,UITextFieldDelegate {
         view.backgroundColor = .white
         createEmailTextView()
         createButton()
+        let tap = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(_:)))
+        view.addGestureRecognizer(tap)
         // Do any additional setup after loading the view.
         if LocalStorage.shared.getValueFromLocalStorage(AppConstant.EMAILID).isEmpty {
             
@@ -40,7 +42,19 @@ class Dashboard: UIViewController,UITextFieldDelegate {
             self.navigationController?.pushViewController(FriendListVC.init(), animated: false)
         }
     }
-
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+    }
+    
+    @objc func handleTap(_ sender: UITapGestureRecognizer? = nil) {
+        self.view.endEditing(true)
+    }
+    
     private func setupView() {
       greenView.translatesAutoresizingMaskIntoConstraints = false
       greenView.backgroundColor = .green
@@ -51,6 +65,8 @@ class Dashboard: UIViewController,UITextFieldDelegate {
            greenView.trailingAnchor.constraint(equalTo: margins.trailingAnchor)
         ])
     }
+    
+   
     
     func createEmailTextView()  {
         textView = UITextField.init()
