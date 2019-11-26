@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		933C6A7A238AD57200514141 /* WSDownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C6A79238AD57200514141 /* WSDownloadImage.swift */; };
+		933C6A7C238AD5FF00514141 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C6A7B238AD5FF00514141 /* DataBase.swift */; };
+		933C6A8F238AE0BD00514141 /* FriendListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C6A8E238AE0BD00514141 /* FriendListVC.swift */; };
+		933C6A91238AED5C00514141 /* TextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C6A90238AED5C00514141 /* TextFieldExt.swift */; };
+		933C6A9C238B860D00514141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933C6A98238B860D00514141 /* LaunchScreen.storyboard */; };
+		933C6A9D238B860D00514141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933C6A9A238B860D00514141 /* Main.storyboard */; };
+		933C6A9F238B956D00514141 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C6A9E238B956D00514141 /* FriendCell.swift */; };
+		933C6AA2238BBBE900514141 /* FriendInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C6AA1238BBBE900514141 /* FriendInformation.swift */; };
+		933C6AA4238BDE3400514141 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C6AA3238BDE3400514141 /* AppConstant.swift */; };
+		933C6AA6238C1B9400514141 /* FriendsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933C6AA5238C1B9400514141 /* FriendsManager.swift */; };
+		9346EBF9238D1410004F51DF /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9346EBF8238D1410004F51DF /* LocalStorage.swift */; };
+		93D8231B238AAB9200241D26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8231A238AAB9200241D26 /* AppDelegate.swift */; };
+		93D8231D238AAB9200241D26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8231C238AAB9200241D26 /* SceneDelegate.swift */; };
+		93D8231F238AAB9200241D26 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8231E238AAB9200241D26 /* Dashboard.swift */; };
+		93D82325238AAB9200241D26 /* EmatrixProblem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93D82323238AAB9200241D26 /* EmatrixProblem.xcdatamodeld */; };
+		93D82327238AAB9400241D26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D82326238AAB9400241D26 /* Assets.xcassets */; };
+		93D82333238AB7EB00241D26 /* ViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D82332238AB7EB00241D26 /* ViewExt.swift */; };
+		93D82337238ABE6600241D26 /* WebAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D82335238ABE6600241D26 /* WebAPIManager.swift */; };
+		93D82338238ABE6600241D26 /* WSRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D82336238ABE6600241D26 /* WSRequestManager.swift */; };
+		93D8233B238ABF5A00241D26 /* WSGetFriendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8233A238ABF5A00241D26 /* WSGetFriendList.swift */; };
+		E46166CE0DF0A109F3ED93E6 /* Pods_EmatrixProblem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CDBF3DEA5117D8A6376DAD /* Pods_EmatrixProblem.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4EF2F4B6CC2A99FFF53D36AD /* Pods-EmatrixProblem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmatrixProblem.debug.xcconfig"; path = "Target Support Files/Pods-EmatrixProblem/Pods-EmatrixProblem.debug.xcconfig"; sourceTree = "<group>"; };
+		64CDBF3DEA5117D8A6376DAD /* Pods_EmatrixProblem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmatrixProblem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		933C6A79238AD57200514141 /* WSDownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSDownloadImage.swift; sourceTree = "<group>"; };
+		933C6A7B238AD5FF00514141 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		933C6A8E238AE0BD00514141 /* FriendListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListVC.swift; sourceTree = "<group>"; };
+		933C6A90238AED5C00514141 /* TextFieldExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExt.swift; sourceTree = "<group>"; };
+		933C6A99238B860D00514141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		933C6A9B238B860D00514141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		933C6A9E238B956D00514141 /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		933C6AA1238BBBE900514141 /* FriendInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendInformation.swift; sourceTree = "<group>"; };
+		933C6AA3238BDE3400514141 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		933C6AA5238C1B9400514141 /* FriendsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsManager.swift; sourceTree = "<group>"; };
+		9346EBF8238D1410004F51DF /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		93D82317238AAB9200241D26 /* EmatrixProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmatrixProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D8231A238AAB9200241D26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93D8231C238AAB9200241D26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		93D8231E238AAB9200241D26 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		93D82324238AAB9200241D26 /* EmatrixProblem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmatrixProblem.xcdatamodel; sourceTree = "<group>"; };
+		93D82326238AAB9400241D26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93D8232B238AAB9400241D26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D82332238AB7EB00241D26 /* ViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExt.swift; sourceTree = "<group>"; };
+		93D82335238ABE6600241D26 /* WebAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebAPIManager.swift; sourceTree = "<group>"; };
+		93D82336238ABE6600241D26 /* WSRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSRequestManager.swift; sourceTree = "<group>"; };
+		93D8233A238ABF5A00241D26 /* WSGetFriendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSGetFriendList.swift; sourceTree = "<group>"; };
+		E475D716F52D0634E3FA8877 /* Pods-EmatrixProblem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmatrixProblem.release.xcconfig"; path = "Target Support Files/Pods-EmatrixProblem/Pods-EmatrixProblem.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93D82314238AAB9200241D26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46166CE0DF0A109F3ED93E6 /* Pods_EmatrixProblem.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013658C514975537AC2F382E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64CDBF3DEA5117D8A6376DAD /* Pods_EmatrixProblem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C0A720000EEEA5A69F65E26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EF2F4B6CC2A99FFF53D36AD /* Pods-EmatrixProblem.debug.xcconfig */,
+				E475D716F52D0634E3FA8877 /* Pods-EmatrixProblem.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		933C6A8D238AE09C00514141 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				933C6A8E238AE0BD00514141 /* FriendListVC.swift */,
+				93D8231E238AAB9200241D26 /* Dashboard.swift */,
+				933C6AA5238C1B9400514141 /* FriendsManager.swift */,
+				933C6A9E238B956D00514141 /* FriendCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		933C6AA0238BBBC700514141 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				933C6AA1238BBBE900514141 /* FriendInformation.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		93D8230E238AAB9200241D26 = {
+			isa = PBXGroup;
+			children = (
+				93D82319238AAB9200241D26 /* EmatrixProblem */,
+				93D82318238AAB9200241D26 /* Products */,
+				3C0A720000EEEA5A69F65E26 /* Pods */,
+				013658C514975537AC2F382E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93D82318238AAB9200241D26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93D82317238AAB9200241D26 /* EmatrixProblem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93D82319238AAB9200241D26 /* EmatrixProblem */ = {
+			isa = PBXGroup;
+			children = (
+				93D8231A238AAB9200241D26 /* AppDelegate.swift */,
+				933C6AA3238BDE3400514141 /* AppConstant.swift */,
+				93D8231C238AAB9200241D26 /* SceneDelegate.swift */,
+				933C6A8D238AE09C00514141 /* Views */,
+				93D82334238ABE2300241D26 /* Webservices */,
+				93D82331238AB7D900241D26 /* Utils */,
+				93D82326238AAB9400241D26 /* Assets.xcassets */,
+				933C6A98238B860D00514141 /* LaunchScreen.storyboard */,
+				933C6A9A238B860D00514141 /* Main.storyboard */,
+				93D8232B238AAB9400241D26 /* Info.plist */,
+			);
+			path = EmatrixProblem;
+			sourceTree = "<group>";
+		};
+		93D82331238AB7D900241D26 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				93D82332238AB7EB00241D26 /* ViewExt.swift */,
+				933C6A90238AED5C00514141 /* TextFieldExt.swift */,
+				93D82323238AAB9200241D26 /* EmatrixProblem.xcdatamodeld */,
+				933C6A7B238AD5FF00514141 /* DataBase.swift */,
+				9346EBF8238D1410004F51DF /* LocalStorage.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		93D82334238ABE2300241D26 /* Webservices */ = {
+			isa = PBXGroup;
+			children = (
+				93D82335238ABE6600241D26 /* WebAPIManager.swift */,
+				93D82336238ABE6600241D26 /* WSRequestManager.swift */,
+				93D82339238ABF0F00241D26 /* WSRequest */,
+				933C6AA0238BBBC700514141 /* models */,
+			);
+			path = Webservices;
+			sourceTree = "<group>";
+		};
+		93D82339238ABF0F00241D26 /* WSRequest */ = {
+			isa = PBXGroup;
+			children = (
+				93D8233A238ABF5A00241D26 /* WSGetFriendList.swift */,
+				933C6A79238AD57200514141 /* WSDownloadImage.swift */,
+			);
+			path = WSRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93D82316238AAB9200241D26 /* EmatrixProblem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D8232E238AAB9400241D26 /* Build configuration list for PBXNativeTarget "EmatrixProblem" */;
+			buildPhases = (
+				26E13431C4E07C2BBEC73F43 /* [CP] Check Pods Manifest.lock */,
+				93D82313238AAB9200241D26 /* Sources */,
+				93D82314238AAB9200241D26 /* Frameworks */,
+				93D82315238AAB9200241D26 /* Resources */,
+				2E20E49DC87487340D84BE6B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmatrixProblem;
+			productName = EmatrixProblem;
+			productReference = 93D82317238AAB9200241D26 /* EmatrixProblem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93D8230F238AAB9200241D26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "ashok Mahawar";
+				TargetAttributes = {
+					93D82316238AAB9200241D26 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 93D82312238AAB9200241D26 /* Build configuration list for PBXProject "EmatrixProblem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93D8230E238AAB9200241D26;
+			productRefGroup = 93D82318238AAB9200241D26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93D82316238AAB9200241D26 /* EmatrixProblem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93D82315238AAB9200241D26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933C6A9D238B860D00514141 /* Main.storyboard in Resources */,
+				93D82327238AAB9400241D26 /* Assets.xcassets in Resources */,
+				933C6A9C238B860D00514141 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26E13431C4E07C2BBEC73F43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmatrixProblem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E20E49DC87487340D84BE6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmatrixProblem/Pods-EmatrixProblem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmatrixProblem/Pods-EmatrixProblem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmatrixProblem/Pods-EmatrixProblem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93D82313238AAB9200241D26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933C6A7C238AD5FF00514141 /* DataBase.swift in Sources */,
+				933C6A8F238AE0BD00514141 /* FriendListVC.swift in Sources */,
+				93D82338238ABE6600241D26 /* WSRequestManager.swift in Sources */,
+				93D8231F238AAB9200241D26 /* Dashboard.swift in Sources */,
+				93D82337238ABE6600241D26 /* WebAPIManager.swift in Sources */,
+				9346EBF9238D1410004F51DF /* LocalStorage.swift in Sources */,
+				933C6AA6238C1B9400514141 /* FriendsManager.swift in Sources */,
+				93D8231B238AAB9200241D26 /* AppDelegate.swift in Sources */,
+				933C6AA4238BDE3400514141 /* AppConstant.swift in Sources */,
+				93D82333238AB7EB00241D26 /* ViewExt.swift in Sources */,
+				93D82325238AAB9200241D26 /* EmatrixProblem.xcdatamodeld in Sources */,
+				933C6AA2238BBBE900514141 /* FriendInformation.swift in Sources */,
+				93D8233B238ABF5A00241D26 /* WSGetFriendList.swift in Sources */,
+				933C6A7A238AD57200514141 /* WSDownloadImage.swift in Sources */,
+				93D8231D238AAB9200241D26 /* SceneDelegate.swift in Sources */,
+				933C6A9F238B956D00514141 /* FriendCell.swift in Sources */,
+				933C6A91238AED5C00514141 /* TextFieldExt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		933C6A98238B860D00514141 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				933C6A99238B860D00514141 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		933C6A9A238B860D00514141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				933C6A9B238B860D00514141 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93D8232C238AAB9400241D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93D8232D238AAB9400241D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93D8232F238AAB9400241D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF2F4B6CC2A99FFF53D36AD /* Pods-EmatrixProblem.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 764Y542YJW;
+				INFOPLIST_FILE = EmatrixProblem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matrix.problem.EmatrixProblem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93D82330238AAB9400241D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E475D716F52D0634E3FA8877 /* Pods-EmatrixProblem.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 764Y542YJW;
+				INFOPLIST_FILE = EmatrixProblem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matrix.problem.EmatrixProblem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93D82312238AAB9200241D26 /* Build configuration list for PBXProject "EmatrixProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D8232C238AAB9400241D26 /* Debug */,
+				93D8232D238AAB9400241D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D8232E238AAB9400241D26 /* Build configuration list for PBXNativeTarget "EmatrixProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D8232F238AAB9400241D26 /* Debug */,
+				93D82330238AAB9400241D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93D82323238AAB9200241D26 /* EmatrixProblem.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93D82324238AAB9200241D26 /* EmatrixProblem.xcdatamodel */,
+			);
+			currentVersion = 93D82324238AAB9200241D26 /* EmatrixProblem.xcdatamodel */;
+			path = EmatrixProblem.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 93D8230F238AAB9200241D26 /* Project object */;
+}
