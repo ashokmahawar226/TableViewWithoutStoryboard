@@ -22,8 +22,8 @@ class FriendListVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         createTopBar()
-        createEmailLbl()
         createLogoutButton()
+        createEmailLbl()
         createTableView()
         self.view.backgroundColor = .white
         // Do any additional setup after loading the view.
@@ -100,7 +100,7 @@ class FriendListVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
         
         emailIDLbl.topAnchor.constraint(equalTo: topBar.topAnchor).isActive = true
         emailIDLbl.leftAnchor.constraint(equalTo: topBar.leftAnchor).isActive = true
-        emailIDLbl.widthAnchor.constraint(equalToConstant: view.bounds.width*0.85).isActive = true
+        emailIDLbl.rightAnchor.constraint(equalTo: logoutButton.leftAnchor).isActive = true
         emailIDLbl.bottomAnchor.constraint(equalTo: topBar.bottomAnchor).isActive = true
         
         //
@@ -115,7 +115,7 @@ class FriendListVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
         logoutButton.translatesAutoresizingMaskIntoConstraints = false
         logoutButton.topAnchor.constraint(equalTo: topBar.topAnchor).isActive = true
         logoutButton.rightAnchor.constraint(equalTo: self.view.rightAnchor).isActive = true
-        logoutButton.leftAnchor.constraint(equalTo: self.emailIDLbl.rightAnchor).isActive = true
+        logoutButton.widthAnchor.constraint(equalToConstant: 80).isActive = true
         logoutButton.bottomAnchor.constraint(equalTo: topBar.bottomAnchor).isActive = true
     }
     
